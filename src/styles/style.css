@@ -1,0 +1,79 @@
+@import 'topbar.css';
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sriracha', cursive;
+}
+
+.container .mrgn {
+    margin: 40px auto;
+}
+
+.modal-body img {
+    width: 30%;
+}
+
+.card-body .card-title {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.text-muted .rating {
+    width: 27px;
+}
+
+
+/**
+    style untuk button
+*/
+.button-bar {
+    margin: 0 auto;
+}
+.button-bar .btn {
+    margin: 20px 0;
+}
+
+.button-bar .btn:hover {
+    background-color: teal;
+}
+
+/* .button-bar .btn:focus {
+    background-color: #17a2b8;
+} */
+
+.title a {
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.title a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.no-gutters {
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+@media screen and (max-width: 800px) {
+    .container .mrgn {
+        flex-direction: column;
+        position: static;
+        display: block
+    }
+}
